@@ -1,0 +1,18 @@
+.header-text {
+    position: absolute;
+    top: 27%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-text h2 a {
+    background-color: #2980b9;
+	padding: 10px;
+}

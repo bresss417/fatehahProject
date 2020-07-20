@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
+/*LIGHT THEME*/
+.light-theme {background: #eee;}
+.light-theme .table-box {background: #fafafa;}
+.light-theme .table {box-shadow: 0 0 10px 0 rgba(0,0,0,.1);}
+.light-theme .table,
+.light-theme .table tr>th .users {color: #666;}
+.light-theme .table,
+.light-theme .table tr {border-color: #ddd;}
+.light-theme .table tr {background: white;}
+.light-theme .table tbody tr:hover {background: #ddd;}
+.light-theme .table tr>th,
+.light-theme .table .project,
+.light-theme .table .date {color: black;}
+
+
+/*DARK THEME*/
+.dark-theme {background: #1c2335;}
+.dark-theme .table-box {background: #21293e;}
+.dark-theme .table {box-shadow: 0 0 10px 0 rgba(0,0,0,.1);}
+.dark-theme .table,
+.dark-theme .table tr>th .users {color: #a9b5cb;}
+.dark-theme .table,
+.dark-theme .table tr {border-color: #273149;}
+.dark-theme .table tr {background: #1a2030;}
+.dark-theme .table tbody tr:hover {background: #1f263b;}
+.dark-theme .table tr>th,
+.dark-theme .table .project,
+.dark-theme .table .date {color: white;}
+
+.assigned {color: #8BC34A;}
+.rejected {color: #e91e63;}
+.outdated {color: #03A9F4;}
+.dot-online {background: #8BC34A;}
+.dot-offline {background: #e91e63;}
+
+html,body {
+    font-family: 'Quicksand';
+    font-size: 13px;
+}
+.strong,strong {font-weight: 600;}
+.table-box {padding: 30px;}
+.table thead th {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.table {
+    border-width: 1px;
+    border-style: solid;
+}
+.table tr {
+    border-width: 1px 0;
+    border-style: solid;
+}
+.table th,
+.table td {vertical-align: middle;}
+.table tr th,
+.table td {
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+.table thead th {
+    font-size: 16px;
+    font-weight: 600;
+}
+.table thead th,
+.table td, .table th {border: 0;}
+.table .time {font-size: 80%;}
+.status-indicator {
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+}
+.project-description {
+    width: 300px;
+    white-space: initial !important;
+}
